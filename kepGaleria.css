@@ -1,0 +1,86 @@
+.kiskep img, .nagykep img {
+    width: 100%;
+}
+
+header, main, footer, nav, article, section {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.kiskep {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+}
+
+.kep {
+    width: 90%;
+
+
+}
+.jobb {
+    border: 1px solid gray;
+    padding: 10px;
+
+}
+.bal {
+    border: 1px solid gray;
+    padding: 10px;
+    
+
+
+}
+
+
+
+
+/*reszponzivítás*/
+@media screen and (max-width: 800px) {
+
+    .kiskep {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+    }
+    nav {
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+
+    
+
+    }
+.jobb {
+    border: 1px solid gray;
+    padding: 10px;
+
+}
+    
+  }
+
+  @media screen and (max-width: 400px) {
+
+    .kiskep {
+        display: grid;
+        grid-template-columns:1fr;
+        width: 100%;
+    }
+
+    nav {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    }
+
+
+
+
+    
+  }
+
