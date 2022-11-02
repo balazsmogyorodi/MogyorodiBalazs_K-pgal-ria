@@ -7,11 +7,18 @@ header, main, footer, nav, article, section {
     padding: 10px;
 }
 
-nav {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    border: 1px solid gray;
-    padding: 10px;
+h1 {
+    position: relative;
+    left: 5pt;
+    font-size: 32pt;
+}
+
+h2 {
+    position: relative;
+    left: 5pt;
+    font-size: 24pt;
+
+
 }
 
 .kiskep {
@@ -25,21 +32,102 @@ nav {
 
 
 }
-.jobb {
-    border: 1px solid gray;
+
+nav {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border: 1px solid black;
     padding: 10px;
+    background-color: gray;
+    height: 20pt;
+}
+
+.bal {
+    padding: 10px;
+    height: 20pt;
+   
+    margin: -8pt;
+    
+}
+
+.button {
+    border: 1px solid red;
+    padding: 10px;
+    width: 45pt;
+    height: 15pt;
+    background-color: red;
+    margin: -6pt;
+    position: relative;
+    bottom: 2pt;
+    right: 1pt;
+  
 
 }
-.bal {
-    border: 1px solid gray;
+.jobb {
+   
     padding: 10px;
+    height: 20pt;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    position: relative;
+    bottom: 8pt;
+    text-align: center;
+  
+  
+   
+}
+.MainMenu {
+    color: white;
+    text-decoration: none;
+    text-align:left;
+    font-size: 12pt;
+    position: relative;
+
+}
+
+.SecoondButton {
+    border-left: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    width: 60pt;
+    height: 25pt;
+    position: relative;
+    left: 200pt;
+    bottom: 8pt;
+  
     
 
-
 }
 
 
+.SecoondMenu {
+    color: red;
+    text-decoration: none;
+    font-size: 12pt;
+    margin: 0pt;
+    position: relative;
+    top: 5pt;
+}
 
+.EgyikOldal {
+
+    position: relative;
+    left: 15pt;
+
+
+
+
+
+}
+.kepek {
+    
+    width: 98%;
+}
+
+.kiskepen {
+    border: 1px solid black;
+    
+
+}
 
 /*reszponzivítás*/
 @media screen and (max-width: 800px) {
